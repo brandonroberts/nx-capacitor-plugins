@@ -1,1 +1,1 @@
-{}
+{"dependencies":{"@nx-caps/http":"../../dist/libs/http"}}
