@@ -7,6 +7,7 @@ import { DataService, Message } from '../services/data.service';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
+  messages$ = this.data.getMessages();
   constructor(private data: DataService) {}
 
   refresh(ev) {
@@ -15,7 +16,7 @@ export class HomePage {
     }, 3000);
   }
 
-  getMessages(): Message[] {
-    return this.data.getMessages();
+  getMessages() {
+    // return this.data.getMessages();
   }
 }

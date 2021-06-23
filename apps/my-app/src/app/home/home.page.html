@@ -18,7 +18,7 @@
   <h1>Welcome to my-app!</h1>
   <ion-list>
     <nx-caps-message
-      *ngFor="let message of getMessages()"
+      *ngFor="let message of messages$ | async"
       [message]="message"
     ></nx-caps-message>
   </ion-list>

@@ -215,6 +215,22 @@
           }
         }
       }
+    },
+    "http": {
+      "projectType": "library",
+      "root": "libs/http",
+      "sourceRoot": "libs/http/src",
+      "prefix": "nx-caps",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/workspace:tsc",
+          "options": {
+            "main": "libs/http/src/index.ts",
+            "outputPath": "dist/libs/http",
+            "tsConfig": "libs/http/tsconfig.json"
+          }
+        }
+      }
     }
   },
   "cli": {
