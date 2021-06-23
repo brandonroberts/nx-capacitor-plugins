@@ -1,1 +1,6 @@
-[]
+[
+	{
+		"pkg": "@nx-caps/http",
+		"classpath": "com.getcapacitor.plugin.http.Http"
+	}
+]
