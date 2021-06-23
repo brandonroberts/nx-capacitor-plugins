@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Http } from '@nx-caps/http';
+import { Http } from '@capacitor-community/http';
 import { from, Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 
@@ -19,7 +19,8 @@ export class DataService {
   constructor() {}
 
   public getMessages(): Observable<Message[]> {
-    return from(Http.get({
+    return from(Http.request({
+      method: 'GET',
       url: 'http://localhost:3000/messages'
     })).pipe(map(response => response.data));
   }

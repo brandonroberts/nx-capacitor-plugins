@@ -2,6 +2,14 @@
 # yarn lockfile v1
 
 
+"@capacitor-community/http@../../dist/libs/http":
+  version "1.0.0"
+  dependencies:
+    "@capacitor/android" "^3.0.0"
+    "@capacitor/core" "^3.0.0"
+    "@capacitor/filesystem" "^1.0.0"
+    "@capacitor/ios" "^3.0.0"
+
 "@capacitor/android@^3.0.0":
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/@capacitor/android/-/android-3.0.1.tgz#77deddbde7c3624fdf4b40d3446ac31261f53771"
@@ -23,14 +31,6 @@
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/@capacitor/ios/-/ios-3.0.1.tgz#189ec4f473424b6435528f7cd68b545b79f1acc0"
   integrity sha512-g0xQgiGu0MyHl/17tEiMJUAL6sTj76pu3gtqY5wWGLAfTDRodDz2WjmV6i8OQvfrR69IWfdqEvKaFz7MCeHajg==
-
-"@nx-caps/http@../../dist/libs/http":
-  version "1.0.0"
-  dependencies:
-    "@capacitor/android" "^3.0.0"
-    "@capacitor/core" "^3.0.0"
-    "@capacitor/filesystem" "^1.0.0"
-    "@capacitor/ios" "^3.0.0"
 
 tslib@^2.1.0:
   version "2.3.0"

@@ -1,5 +1,5 @@
 {
-  "name": "@nx-caps/http",
+  "name": "@capacitor-community/http",
   "version": "1.0.0",
   "description": "A native HTTP plugin for CORS-free requests and file transfers",
   "main": "./src/index.js",
@@ -39,7 +39,7 @@
     }
   },
   "files": [
-    "dist/",
+    "src/",
     "ios/",
     "android/",
     "CapacitorCommunityHttp.podspec"
