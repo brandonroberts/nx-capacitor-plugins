@@ -1,0 +1,13 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "my-app",
+	"bundledWebRuntime": false,
+	"npmClient": "yarn",
+	"webDir": "../../dist/apps/my-app",
+	"plugins": {
+		"SplashScreen": {
+			"launchShowDuration": 0
+		}
+	},
+	"cordova": {}
+}
