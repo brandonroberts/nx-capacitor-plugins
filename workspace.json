@@ -156,6 +156,18 @@
             }
           }
         },
+        "run": {
+          "executor": "@nxtend/capacitor:cap",
+          "options": {
+            "cmd": "run",
+            "packageInstall": false
+          },
+          "configurations": {
+            "android": {
+              "cmd": "run android"
+            }
+          }
+        },        
         "sync": {
           "executor": "@nxtend/capacitor:cap",
           "options": {
